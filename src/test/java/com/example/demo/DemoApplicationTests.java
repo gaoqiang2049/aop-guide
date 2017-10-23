@@ -23,5 +23,6 @@ public class DemoApplicationTests {
 	public void adminInsert(){
 		CurrentUserHolder.set("admin");
 		productService.delete(1L);
+		//
 	}
 }
